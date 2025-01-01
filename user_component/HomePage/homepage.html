@@ -21,13 +21,13 @@
 </head>
 
 <body>
-    <header>
+    <header class="flex h-[90px]">
         <!-- NavBar -->
-        <nav>
+        <nav class="flex mx-auto">
             <!-- Right NavBar Logo Section -->
             <div class="left_nav_logo">
                 <a href="#">
-                    <span>
+                    <span class="flex">
                         <p class="l-text_logo">Digit</p>
                         <p class="r-text_logo">Marketing</p>
                     </span>
@@ -35,8 +35,8 @@
             </div>
 
             <!-- Center NavBar Links Section -->
-            <div class="Center_nav_mainLinks">
-                <ul>
+            <div class="center_nav_mainLinks">
+                <ul class="flex gap-[20px]">
                     <li class="mlink_home">Home</li>
                     <li class="mlink_about">About</li>
                     <li class="mlink_services">Services</li>
@@ -48,6 +48,22 @@
             </div>
 
             <!-- Right navbar Subscription Section -->
+             <div class="right_nav_subs">
+                <button class="r-nav_search">
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </button>
+                <button class="r-nav_subs">
+                    <a href="#">
+                        <span>Purchase</span>
+                    </a>
+                </button>
+                <button class="r-nav_mode_switcher">
+                    <span><i class="fa-solid fa-moon"></i></span>
+                </button>
+             </div>
+
 
         </nav>
     </header>
