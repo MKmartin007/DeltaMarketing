@@ -1,0 +1,36 @@
+/* Right NavBar Logo Section */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+*/
+
+/* Center NavBar Section  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left_nav_logo {
+    font-family: "Lato", serif;
+}
+
+.center_nav_mainLinks {
+    font-family: "Montserrat", serif;
+}

@@ -21,52 +21,60 @@
 </head>
 
 <body>
-    <header class="flex h-[90px]">
+    <header class="flex h-[90px] w-[100%] fixed">
         <!-- NavBar -->
-        <nav class="flex mx-auto">
+        <nav class="flex mx-auto w-[62%] items-center">
             <!-- Right NavBar Logo Section -->
-            <div class="left_nav_logo">
+            <div class="left_nav_logo justify-items-start text-[27px] font-[900] tracking-[2px] pr-[30px]">
                 <a href="#">
                     <span class="flex">
-                        <p class="l-text_logo">Digit</p>
+                        <p class="l-text_logo text-[#0B3D91]">Delta</p>
                         <p class="r-text_logo">Marketing</p>
                     </span>
                 </a>
             </div>
 
-            <!-- Center NavBar Links Section -->
-            <div class="center_nav_mainLinks">
-                <ul class="flex gap-[20px]">
-                    <li class="mlink_home">Home</li>
-                    <li class="mlink_about">About</li>
-                    <li class="mlink_services">Services</li>
-                    <li class="mlink_page">Page
-                        <span><i class="fa-solid fa-angle-down"></i></span>
-                    </li>
-                    <li class="mlink_contact">Contact</li>
-                </ul>
+            <!-- Center NavBar Section -->
+            <div class="center_links flex w-[100%] justify-between">
+                <div class="center_nav_mainLinks text-[15px] font-[500] content-center">
+                    <ul class="flex ">
+                        <li class="mlink_home px-[20px] text-[#FC3D21]">Home</li>
+                        <li class="mlink_about px-[10px] hover:text-[#FC3D21] hover:duration-[0.5s]">About</li>
+                        <li class="mlink_services px-[10px] hover:text-[#FC3D21] hover:text-[#FC3D21] hover:duration-[0.5s]">Services</li>
+                        <li class="mlink_page px-[10px] hover:text-[#FC3D21] hover:text-[#FC3D21] hover:duration-[0.5s]">Page
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </li>
+                        <li class="mlink_contact px-[10px] hover:text-[#FC3D21] hover:text-[#FC3D21] hover:duration-[0.5s]">Contact</li>
+                    </ul>
+                </div>
+
+                <div class="right_nav_subs flex">
+                    <button class="r-nav_search px-[15px] ">
+                        <a href="#" class="p-[15px] h-[44px] w-[44px] bg-[#F5F6F9] text-[#FC3D21] rounded-[100%] hover:bg-[#FC3D21] hover:text-[white] hover:duration-[0.5s]">
+                            <span class="text-[18px] ">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </a>
+                    </button>
+                    <button class="r-nav_subs mr-[16px] p-[16px] content-center">
+                        <a href="#" class="">
+                            <span class="ml-[8px] px-[40px] py-[16px] text-[16px] font-[400] text-white bg-[#0B3D91] rounded-[10px]">Purchase</span>
+                        </a>
+                    </button>
+                </div>
             </div>
 
-            <!-- Right navbar Subscription Section -->
-             <div class="right_nav_subs">
-                <button class="r-nav_search">
-                    <span>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </span>
-                </button>
-                <button class="r-nav_subs">
-                    <a href="#">
-                        <span>Purchase</span>
-                    </a>
-                </button>
-                <button class="r-nav_mode_switcher">
-                    <span><i class="fa-solid fa-moon"></i></span>
-                </button>
-             </div>
-
-
+            <!-- Right navbar Section -->
+            <button class="r-nav_mode_switcher">
+                <span><i class="fa-solid fa-moon"></i></span>
+            </button>
         </nav>
     </header>
+
+
+    <main>
+
+    </main>
 
 
     <!-- Linked with TailwindCSS -->
